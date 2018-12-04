@@ -1,0 +1,85 @@
+export default [
+
+    
+
+
+
+    {
+
+        id: "Video Scribe",
+
+        name: "VideoScribe",
+
+        url: "https://voicethread.com/",
+
+        tagline: "Replace text-only discussions.",
+
+        description: "VoiceThread offers a natural online interaction that lends itself to students presenting & defending their work before experts and peers."
+
+        colour: "#FDBC45",
+
+        assets: {
+
+            logo: {
+
+                styles: "",
+
+                image: require('./img/google_classroom.png')
+
+            },
+
+            cover: {
+
+                styles: "background-size: cover !important;",
+
+                image: require('./img/classroom_screenshot.jpg')
+
+            }
+
+        },
+
+        activities: [
+
+            "connect",
+
+            "collaborate",
+
+            "curate", 
+
+            "Assess"
+
+    
+
+        ],
+
+        uses: [
+
+            "Assessment",
+
+            "Discussion",
+
+            "Feedback"
+
+        ],
+
+        submitter: {
+
+            name: "D Munday",
+
+            title: "Digital Learning Facilitator"
+
+        },
+
+        videoURL: "https://www.youtube.com/embed/9PuJJ3purvw",
+
+        framework: {
+
+            enhance: "Set up a class and keep it organised by applying topics to posts. Structure materials by week, lesson, theme or assignment.",
+
+            empower: "Add learning resources in Google formats, amending sharing settings for students to edit or add comments.",
+
+            extend: "Use the Classroom stream to set up discussion topics or create quick polls that engage students inbetween lessons."
+
+        }
+
+    },
